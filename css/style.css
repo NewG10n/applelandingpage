@@ -3,18 +3,23 @@
   src: url("../fonts/SF-Pro-Display-Semibold.woff");
 }
 
+@font-face {
+  font-family: "SFProDisplayRegular";
+  src: url("../fonts/SF-Pro-Display-Regular.woff");
+}
+
 html {
   font-family: "SFProDisplaySemibold", serif;
   font-size: 24px;
 }
 
-h1 {
+.page-title {
   font-size: 3rem;
   text-align: center;
   margin: 1rem auto 0;
 }
 
-h2 {
+.section-title {
   font-size: 3rem;
   text-align: center;
 }
@@ -50,6 +55,7 @@ h2 {
 
 .specifications__item {
   padding-right: 2rem;
+  font-family: "SFProDisplayRegular", serif;
 }
 
 .specifications__item:not(:last-child)::after {
