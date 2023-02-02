@@ -48,6 +48,11 @@ html {
   width: 20%;
 }
 
+.colors {
+  background-color: #f7f7f7;
+  padding-right: 8%;
+}
+
 .specifications {
   column-count: 2;
   margin: 0 3rem;
